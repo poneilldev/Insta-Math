@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ViewController findRectangles:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController processImage:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__28-[ViewController takePhoto:]_block_invoke:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.imageView.frame.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController findSquares:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "xValues">
+            </PersistentString>
+            <PersistentString
+               value = "yValues">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
