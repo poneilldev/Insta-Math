@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AH3-fN-96Q">
+                                <rect key="frame" x="101" y="264" width="399" height="72"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <view contentMode="center" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1b3-2q-TTK">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCU-7F-0iL">
+                                        <rect key="frame" x="8" y="168" width="584" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" alpha="0.5" contentMode="center" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlJ-py-DAf">
+                                        <rect key="frame" x="128" y="451" width="345" height="49"/>
+                                        <color key="backgroundColor" red="1" green="0.1580529453" blue="0.12267466639999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Solve">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="takePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4yB-rC-Cz4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="tlJ-py-DAf" secondAttribute="trailing" constant="127" id="0BR-vc-0wr"/>
+                                    <constraint firstAttribute="bottom" secondItem="tlJ-py-DAf" secondAttribute="bottom" constant="100" id="8KE-V4-ZJb"/>
+                                    <constraint firstItem="tlJ-py-DAf" firstAttribute="leading" secondItem="1b3-2q-TTK" secondAttribute="leading" constant="128" id="CHU-oO-bcf"/>
+                                    <constraint firstItem="TCU-7F-0iL" firstAttribute="top" secondItem="1b3-2q-TTK" secondAttribute="top" constant="168" id="Hkv-I9-otH"/>
+                                    <constraint firstItem="tlJ-py-DAf" firstAttribute="top" secondItem="1b3-2q-TTK" secondAttribute="top" constant="451" id="cVf-jv-yQv"/>
+                                    <constraint firstItem="TCU-7F-0iL" firstAttribute="leading" secondItem="1b3-2q-TTK" secondAttribute="leading" constant="279" id="fQx-9O-CWS"/>
+                                    <constraint firstAttribute="trailing" secondItem="TCU-7F-0iL" secondAttribute="trailing" constant="279" id="qjp-RM-eDB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AH3-fN-96Q" firstAttribute="centerX" secondItem="1b3-2q-TTK" secondAttribute="centerX" id="GVC-7m-9gE"/>
+                            <constraint firstItem="1b3-2q-TTK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gGy-dZ-xcC"/>
+                            <constraint firstItem="AH3-fN-96Q" firstAttribute="top" secondItem="TCU-7F-0iL" secondAttribute="bottom" constant="75" id="hAf-pR-z5h"/>
+                            <constraint firstItem="1b3-2q-TTK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hMS-nB-Yej"/>
+                            <constraint firstItem="AH3-fN-96Q" firstAttribute="centerY" secondItem="1b3-2q-TTK" secondAttribute="centerY" id="mzV-Ke-a1E"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answer" destination="TCU-7F-0iL" id="Uc6-pL-qyi"/>
+                        <outlet property="frameForCapture" destination="1b3-2q-TTK" id="3fS-Ub-XN5"/>
+                        <outlet property="imageView" destination="AH3-fN-96Q" id="cqG-WW-YDy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="464" y="422"/>
+        </scene>
+    </scenes>
+</document>
