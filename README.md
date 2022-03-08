@@ -6,3 +6,5 @@ This iOS app was my senior project at BYU-Idaho. It's an app that takes a pictur
 * This app works best on white paper with black text.
 * It's important to only take picture of text and no other object while trying to process an equation
 * As of right now, it's not handling some errors very gracefully, but I'll work on that soon.
+
+https://developer.apple.com/documentation/vision/recognizing_text_in_images
