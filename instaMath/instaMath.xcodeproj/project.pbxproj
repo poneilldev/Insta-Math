@@ -227,6 +227,7 @@
 				TargetAttributes = {
 					DA506E041D0CF88E006F712A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8WPX9AT5F4;
 					};
 					DA506E1D1D0CF88E006F712A = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,6 +244,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -427,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8WPX9AT5F4;
 				INFOPLIST_FILE = instaMath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulgrid.instaMath;
@@ -438,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8WPX9AT5F4;
 				INFOPLIST_FILE = instaMath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulgrid.instaMath;
@@ -510,6 +514,7 @@
 				DA506E341D0CF88E006F712A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA506E351D0CF88E006F712A /* Build configuration list for PBXNativeTarget "instaMathTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +523,7 @@
 				DA506E371D0CF88E006F712A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA506E381D0CF88E006F712A /* Build configuration list for PBXNativeTarget "instaMathUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +532,7 @@
 				DA506E3A1D0CF88E006F712A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
